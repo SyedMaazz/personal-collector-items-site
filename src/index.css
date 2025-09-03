@@ -117,10 +117,18 @@ body {
     overflow: hidden;
 }
 
+.grid-item:hover{
+    background-color: rgb(29 66 119);
+    transition: background-color 0.5s ease;
+}
+
 .grid-item img {
     width: 400px;
     height: 410px;
     margin-bottom: 40px;
+}
+.grid-item img:hover {
+    transform: rotate(-10deg);
 }
 
 .grid-item span {
@@ -161,7 +169,12 @@ body {
     align-items: center;
     color: white;
     font-size: 120px;
-    line-height: 1
+    line-height: 1;
+    cursor: pointer;
+}
+.footer-link:hover{
+    opacity: 0.5;
+    transition: opacity 0.7s ease;
 }
 
 .footer-link{
