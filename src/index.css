@@ -23,13 +23,11 @@ body {
 
 .nav-bar {
     position: fixed;
-    /* Change from sticky to fixed */
     top: 0;
     left: 0;
     right: 0;
     background-color: rgb(3 45 104);
     z-index: 1000;
-    /* Ensure nav stays on top */
     padding: 15px 0;
 }
 
@@ -79,9 +77,10 @@ body {
 }
 
 .main hr {
-    width: 93%;
-    margin: 0 auto;
-    margin-left: 60px;
+    margin-left: 10%;
+    max-width: 1400px;
+    width: 91%;
+    margin: 1rem auto;
 }
 
 .main h4 {
@@ -96,14 +95,17 @@ body {
     color: white;
     margin-left: 30px;
     max-width: 1400px;
-    margin-top: 10px;
-    margin-bottom: 65px;
+    margin: 10px auto;
+    width: 95%;
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border: 1px solid white;
+    margin: 0 auto;
+    width: 100%;
+    margin-left: 10px;
 }
 
 .grid-item {
@@ -117,7 +119,7 @@ body {
     overflow: hidden;
 }
 
-.grid-item:hover{
+.grid-item:hover {
     background-color: rgb(29 66 119);
     transition: background-color 0.5s ease;
 }
@@ -127,6 +129,7 @@ body {
     height: 410px;
     margin-bottom: 40px;
 }
+
 .grid-item img:hover {
     transform: rotate(-10deg);
 }
@@ -158,7 +161,7 @@ body {
     margin-top: 40px;
 }
 
-.footer-credit{
+.footer-credit {
     font-size: 40px;
     margin-bottom: 60px;
 }
@@ -172,12 +175,13 @@ body {
     line-height: 1;
     cursor: pointer;
 }
-.footer-link:hover{
+
+.footer-link:hover {
     opacity: 0.5;
     transition: opacity 0.7s ease;
 }
 
-.footer-link{
+.footer-link {
     letter-spacing: -8px;
     margin: -6px
 }
@@ -193,12 +197,10 @@ body {
     letter-spacing: 0px;
 }
 
-.footer-copyright span{
+.footer-copyright span {
     margin-left: 60px;
 }
 
-.footer-copyright .copyright-year{
+.footer-copyright .copyright-year {
     margin-right: 43px;
 }
-
-
